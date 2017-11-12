@@ -1,0 +1,38 @@
+body {
+  background-color: e9e9e9
+}
+header {
+  display: block;
+  height: 50px
+  max-width: 300px
+  background-color: f7f7f7;
+  border-style: solid;
+  border-color: f7f7f7
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: ridge;
+    border-color: f7f7f7;
+    float: right;
+}
+div1 {
+  display: block;
+  height: 50px
+  max-width: 300px
+  background-color: e9e9e9;
+  border-style: solid;
+  border-color: f7f7f7
+
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
+<a href="default.asp" target="_blank">This is a link</a>
