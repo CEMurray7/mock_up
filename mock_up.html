@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Iceland Flights Mockup</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
@@ -18,17 +20,66 @@
         <i class="fa fa-arrows-h" aria-hidden="true"></i>REK</span></div>
     </header>
     <!-- <span class="glyphicon glyphicon-search"></span> -->
-    <header>
-      <span id="depart_city">New York (NYC)</span><span id="arrive_city">Reykjavic (REK)</span>
-      <span id="dates"><i class="fa fa-calendar" aria-hidden="true"></i> - </span>
+    <div class="top_bar">
+      <span id="depart_city">New York (NYC)</span>
+      <span id="arrive_city">Reykjavic (REK)</span>
+      <span id="dates"><i class="fa fa-calendar" aria-hidden="true"></i>
+      <span id="depart"></span>
+      -
+      <span id="arrive"></span>
+    </span>
 
       <a href=https://s3.amazonaws.com/f.cl.ly/items/1Q471c1T0X0v2z1w3n0F/list-ui.png?v=720e73ce>SEARCH</a>
       <span id="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
-    </header>
+    </div>
+    <div class="full">
     <div class="left">
-      <span id="trends"></span>
+      <span id="links">
+      <ul>
+        <li><a href=https://i.pinimg.com/736x/89/f7/cf/89f7cfa5aa40386c6de78b786e8343c5--boys-day-gary-oldman.jpg>
+          Price Alert</a></li>
+        <li><a href=http://www.tuffgnarl.com/wp-content/uploads/2014/05/draculastoker.jpg>
+          Airline fees</a></li>
+        <li><a href=https://i.pinimg.com/474x/2d/59/79/2d5979e115e42979d5f7a0921aa2ceff--the-fifth-element-gary-oldman.jpg>
+          Fare Charts</a></li>
+      </ul>
+    </span>
+    <span id="flex_dates">Flex Dates: <a href=http://www.hotflick.net/flicks/1994_Leon_the_Professional/994LTP_Gary_Oldman_005.jpg>
+      +3 days</a>
+    <a href=https://i.pinimg.com/564x/a3/76/8d/a3768d157a97aade87a50f8f4787ff3e--sid-and-nancy-nancy-dellolio.jpg>
+      Explorer</a></span>
+      <span class="trends">Price Trend</span>
+      <span class="stops">7</span>
+      <span class="times">8</span>
+      <span class="airports">9</span>
     </div>
     <div class="right">
+      <div class="results">
+        <span class="flight_result">15 of 64</span>
+        <span id="show_all"><a href=http://www.throwbacks.com/content/images/2017/09/n5hlqqxhi7nklldryxmk.jpg>show all</a></span>
+          <span class="sortby">Sort by Price(low to high)</span>
+      </div>
+      <div class="advertisement">
+        <div class="left1">
+        <p id="Check_Rates">Check Rates</p>
+        <p id="search"><a href=https://s3.amazonaws.com/f.cl.ly/items/1Q471c1T0X0v2z1w3n0F/list-ui.png?v=720e73ce>
+          SEARCH</a></p>
+          <!-- <div class="right1"><img src=http://www.icelandair.com/other_files/icelandair/global/icelandair-logo-for-facebook.jpg alt="IcelandAir Logo"/> -->
+          </div>
+          <div class="middle">
+            <p id="middle1">Faster Flights. More Legroom. 3 Bags FREE.</p>
+            <p id="save_time">Save time and money with IcelandAir on your way to Reykjavic</p>
+            <p id="link"><a href=http://www.icelandair.us/>Icelandair.us</a></p>
+          </div>
+          <div class="right1"
+            <p id="logo"><img src="public/images/icelandairlogo.jpg" alt="IcelandAir Logo"/>
+            </p>
+        </div> <!-- this div is closing out right1-->
+      </div>
+      <div class="result1"></div>
+      <div class="result2"></div>
+        <div class="result3"></div>
     </div>
+  </div> <!-- "full" -->
   </body>
 </html>
